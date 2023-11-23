@@ -1,6 +1,5 @@
 # Import the required dependencies
 from save_data_points import SaveDataPoints
-import cv2
 from constant import Constant
 import time
 import os

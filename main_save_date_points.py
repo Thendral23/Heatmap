@@ -28,7 +28,7 @@ def main():
         # Checking if there are no video files
         if len(savedatapoints_.source_dict) == 0:
             print("There is no video file")
-            time.sleep(Constant.SAVE_VIDEO_DURATION * 60)
+            time.sleep(Constant.SAVE_VIDEO_DURATION * 60) + 3
             # Continuing to the next iteration
             continue
         else:

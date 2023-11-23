@@ -7,7 +7,7 @@ import os
 from datetime import datetime
 import logging
 import shutil
-from utilss import *
+
 
 # Setting up log file
 log_file = Constant.LOG_FILE_SAVE_DATA_POINTS
